@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRodape"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="right|bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rodape"
+        android:drawableLeft="@drawable/rodapebg"
+        android:drawablePadding="10dp"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textAlignment="textStart"
+        android:textColor="#2873b9"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
